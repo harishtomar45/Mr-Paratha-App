@@ -8,7 +8,7 @@ const MiddleeHero = () => {
 
   <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
       <img
-        className="aspect-[3/2] hidden md:block bg-gray-50 object-cover lg:aspect-[6/6] lg:h-[350px] xl:aspect-[16/9]"
+        className="aspect-[3/2] hidden md:block bg-gray-50 object-cover lg:aspect-[6/6] lg:h-[300px] xl:aspect-[16/9]"
         src="https://nammav2app.jobs7.in/12058/Room-boy.webp"
         alt=""
       />

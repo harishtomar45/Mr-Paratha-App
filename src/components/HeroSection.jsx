@@ -1,4 +1,5 @@
 import React from 'react'
+import img from '../assets/img.png'
 
 const HeroSection = () => {
   return (
@@ -36,7 +37,7 @@ const HeroSection = () => {
     <div className="relative hidden md:block lg:col-span-5 lg:-mr-8 xl:col-span-6">
       <img
         className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[5/4] lg:h-[400px] xl:aspect-[16/9]"
-        src= "\src\assets\girl_ad-removebg-preview.png"
+        src= {img}
         alt=""
       />
       <img src="" alt="" />
