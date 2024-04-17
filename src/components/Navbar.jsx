@@ -7,7 +7,7 @@ import { logoutUser } from "../featurs/auth/authSlice";
 
 const Navbar = () => {
   // const {user} = useSelector((state)=> state.auth);
-  const {cartItems} = useSelector((state) => state.cart)
+  const { cartItems } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -93,16 +93,6 @@ const Navbar = () => {
                       Paratha
                     </div>
                   </Link>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                    Burger
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                    Pizza's
-                  </a>
                 </div>
               </div>
             </div>
@@ -127,7 +117,9 @@ const Navbar = () => {
                       d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
                     />
                   </svg>
-                  <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-gray-900 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">{cartItems.length}</div>
+                  <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-gray-900 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
+                    {cartItems.length}
+                  </div>
                 </button>
               </Link>
 
@@ -229,21 +221,13 @@ const Navbar = () => {
                   Home
                 </div>
               </Link>
-              <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">
-                Team
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">
-                Projects
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">
-                Calendar
-              </a>
+              <Link to={"/paratha"}>
+                <div
+                  href="#"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                  Paratha
+                </div>
+              </Link>
             </div>
           )}
         </div>
