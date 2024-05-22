@@ -10,7 +10,7 @@ const FooterSection = () => {
         <div className="flex h-full flex-col justify-between">
           <div className="mb-4 inline-flex items-center">
          
-            <div className="flex flex-shrink-0 items-center">
+            <div className="flex items-center">
                 <img
                   className="h-12 w-auto"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tygPQHyQx3Ujc2myQ3T9binLREfHZJ6bl-x3f1RKOw&s"
@@ -24,7 +24,7 @@ const FooterSection = () => {
               City's Populer Paratha Store
             </p>
             <p className="text-sm text-gray-600">
-              © Copyright 2022. All Rights Reserved by DevUI.
+              © Copyright 2022. All Rights Reserved by Mr. Paratha.
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const FooterSection = () => {
           <ul>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Features
@@ -45,7 +45,7 @@ const FooterSection = () => {
             </li>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Pricing
@@ -53,7 +53,7 @@ const FooterSection = () => {
             </li>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Affiliate Program
@@ -61,7 +61,7 @@ const FooterSection = () => {
             </li>
             <li>
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Press Kit
@@ -78,7 +78,7 @@ const FooterSection = () => {
           <ul>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Account
@@ -86,7 +86,7 @@ const FooterSection = () => {
             </li>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Help
@@ -94,7 +94,7 @@ const FooterSection = () => {
             </li>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Contact Us
@@ -102,7 +102,7 @@ const FooterSection = () => {
             </li>
             <li>
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Customer Support
@@ -119,7 +119,7 @@ const FooterSection = () => {
           <ul>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Terms &amp; Conditions
@@ -127,7 +127,7 @@ const FooterSection = () => {
             </li>
             <li className="mb-4">
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Privacy Policy
@@ -135,7 +135,7 @@ const FooterSection = () => {
             </li>
             <li>
               <a
-                className=" text-base font-medium text-gray-900 hover:text-gray-700"
+                className=" text-base font-medium text-gray-900 hover:text-orange-400"
                 href="#"
               >
                 Licensing

@@ -32,7 +32,7 @@ const Home = () => {
      <HeroSection/>
      <Products/>
      <MiddleeHero/>
-     <RegulerProduct/>
+     {/* <RegulerProduct/> */}
      <Review/>
      <FooterSection/>   
     </>

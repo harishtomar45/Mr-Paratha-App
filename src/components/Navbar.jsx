@@ -79,9 +79,15 @@ const Navbar = () => {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                  <Link to={"/"}>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+           <div className="hidden lg:flex" >
+           <Link to={"/"}>
                     <div
-                      className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      className=" black-white text-orange-600 hover:text-orange-300 rounded-md px-3 py-2 text-sm font-medium"
                       aria-current="page">
                       Home
                     </div>
@@ -89,18 +95,15 @@ const Navbar = () => {
                   <Link to={"/paratha"}>
                     <div
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                      className="hover:text-orange-300 text-orange-400 rounded-md px-3 py-2 text-sm font-medium">
                       Paratha
                     </div>
                   </Link>
-                </div>
-              </div>
-            </div>
-            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+           </div>
               <Link to={"/AddCart"}>
                 <button
                   type="button"
-                  className="relative inline-flex p-1 text-gray-400 hover:text-black focus:outline-none  focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                  className="relative inline-flex p-1 text-orange-400 hover:text-orange-300 focus:outline-none  focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-orange-800">
                   <span className="absolute -inset-1.5"></span>
                   <span className="sr-only">View notifications</span>
 
@@ -117,7 +120,7 @@ const Navbar = () => {
                       d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
                     />
                   </svg>
-                  <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-gray-900 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
+                  <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-orange-600 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
                     {cartItems.length}
                   </div>
                 </button>
@@ -129,7 +132,7 @@ const Navbar = () => {
                   <button
                     onClick={() => setIsOpen((prev) => !prev)}
                     type="button"
-                    className="relative flex rounded-full bg-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                    className="relative flex rounded-full bg-orange-600 text-sm focus:outline-none focus:ring-2 focus:ring-white-200 focus:ring-offset-2 focus:ring-offset-white-400"
                     id="user-menu-button"
                     aria-expanded="false"
                     aria-haspopup="true">
@@ -141,7 +144,7 @@ const Navbar = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="w-6 h-6">
+                      className="w-6 h-6 text-white">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"

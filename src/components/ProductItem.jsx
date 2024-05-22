@@ -21,7 +21,7 @@ const ProductItem = ({roti}) => {
      visible={true}
      height="80"
      width="80"
-     color="#4fa94d"
+     color="#FFA500"
      radius="9"
      ariaLabel="three-dots-loading"
      wrapperStyle={{}}
@@ -56,7 +56,7 @@ const ProductItem = ({roti}) => {
       <button
       onClick={()=> addToCart(roti)}
         type="button"
-        className="mt-4 w-full rounded-sm bg-black px-2 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+        className="mt-4 w-full rounded-sm bg-orange-400 px-2 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
       >
         Add to Cart
       </button>

@@ -3,18 +3,18 @@ import React from 'react'
 const MiddleeHero = () => {
   return (
     <>
-<div className="relative w-full bg-white">
-  <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+<div className="relative w-full bg-amber-500 text-white">
+  <div className="mx-auto  max-w-xl ">
 
-  <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
+  {/* <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
       <img
         className="aspect-[3/2] hidden md:block bg-gray-50  object-fill lg:aspect-[6/8] lg:h-[300px] xl:aspect-[16/9]"
         src="https://nammav2app.jobs7.in/12058/Room-boy.webp"
         alt=""
       />
-    </div>
+    </div> */}
 
-    <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
+    <div className="flex flex-col justify-center text-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
       {/* <svg
         width="30"
         height="36"
@@ -33,10 +33,10 @@ const MiddleeHero = () => {
         </div>
         <p className="text-sm font-medium">Join our team →</p>
       </div> */}
-      <h1 className="mt-8 text-3xl font-bold tracking-tight text-black md:text-3xl lg:text-5xl">
+      <h1 className="mt-8 text-3xl font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
       We Provide Best Service for our Customer
       </h1>
-      <p className="mt-8 text-lg text-gray-700">
+      <p className="mt-8 text-lg text-gray-200">
        Foodie Restaurant and Enjoy The Food
       </p>
        {/* <form action="" className="mt-8 flex items-start space-x-2">
