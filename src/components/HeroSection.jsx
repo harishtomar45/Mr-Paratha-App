@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
           <div className="relative hidden md:block lg:col-span-5 lg:-mr-8 xl:col-span-6">
             <img
-              className="absolute top-56 left-44 aspect-[3/2] object-cover lg:aspect-[2/1] lg:h-[250px] xl:aspect-[16/9]"
+              className="absolute top-56 left-40 aspect-[3/2] object-cover lg:aspect-[2/1] lg:h-[250px] xl:aspect-[16/9]"
               src={img}
               alt=""
             />
